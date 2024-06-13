@@ -1,11 +1,11 @@
 import pygame
 from Config import *
+from ClassBackground import Background
 
 class Level():
     def __init__(self, displaySurface):
 
-        self.spyImage = pygame.image.load(BACKGROUND_IMAGE).convert()
-        self.spyImage = pygame.transform.scale(self.spyImage, (WINDOW_WIDTH, WINDOW_HEIGHT))
+        self.background = Background()
 
         self.displaySurface = displaySurface
 
@@ -13,7 +13,7 @@ class Level():
         pass
 
     def draw(self):
-        self.displaySurface.blit(self.spyImage, (0, 0))
+        self.background.draw(self.displaySurface)
 
     def run(self):
         self.update()

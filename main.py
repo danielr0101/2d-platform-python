@@ -28,6 +28,3 @@ while isGameRunning:
 
 # Close pygame
 pygame.quit()
-
-#C:\Users\INTEL I5\Downloads\PyGameDev-main\PyGameDev-main\Assets\SpriteSheets\sheets\Background\Background.png
-#:\Users\INTEL I5\desktop\proyectosPython\plataforma-juego\Assets\SpriteSheets\sheets\Background\Background.png
